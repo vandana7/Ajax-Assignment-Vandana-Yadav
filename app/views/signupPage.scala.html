@@ -1,0 +1,74 @@
+@()
+<script src="@routes.Assets.versioned("javascripts/signup.js")" type="text/javascript"></script>
+<form class="container form-group Sign RegForm" >
+<form class="form-horizontal">
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="firstname">First Name</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="firstname" placeholder="Enter firstName" name="firstname" required>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="middlename">Middle Name</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="middlename" placeholder="Enter middleName" name="middlename">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="lastname">Last Name</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="lastname" placeholder="Enter lastName" name="lastname" required>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="username">User Name</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="username" placeholder="Enter userName" name="username" required>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="pwd">Password:</label>
+        <div class="col-sm-10">
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd" required>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="repwd">Re-Enter Password</label>
+        <div class="col-sm-10">
+            <input type="password" class="form-control" id="repwd" placeholder="Enter password" name="repwd" required>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="mobileNo">Mobile No</label>
+        <div class="col-sm-10">
+            <input type="number" class="form-control" id="mobileNo" placeholder="Enter password" name="mobileNo" required>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="pwd">Gender</label>
+        <div class="col-sm-10">
+            <select name="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="age">Age</label>
+        <div class="col-sm-10">
+            <input type="number" class="form-control" id="age" placeholder="Enter password" name="age" required>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-sm-2" for="hobbies">Hobbies</label>
+        <div class="col-sm-10">
+            <input type="text" class="form-control" id="hobbies" placeholder="Enter password" name="hobbies" required>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="button" class="btn btn-default" id="signup2">Sign Up</button>
+        </div>
+    </div>
+</form>
