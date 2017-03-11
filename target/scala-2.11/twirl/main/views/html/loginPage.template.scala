@@ -23,7 +23,7 @@ class loginPage extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,F
 
 
 Seq[Any](format.raw/*1.4*/("""
-"""),format.raw/*2.1*/("""<script src=""""),_display_(/*2.15*/routes/*2.21*/.Assets.versioned("javascripts/signin.js")),format.raw/*2.63*/("""" type="text/javascript"></script>
+"""),format.raw/*2.1*/("""<script src=""""),_display_(/*2.15*/routes/*2.21*/.Assets.versioned("javascripts/login.js")),format.raw/*2.62*/("""" type="text/javascript"></script>
 <form class="container form-group Sign">
 <form class="form-horizontal">
     <div class="form-group">
@@ -64,10 +64,10 @@ Seq[Any](format.raw/*1.4*/("""
 object loginPage extends loginPage_Scope0.loginPage
               /*
                   -- GENERATED --
-                  DATE: Sat Mar 11 08:08:17 IST 2017
-                  SOURCE: /home/knoldus/Play/Ajax/app/views/loginPage.scala.html
-                  HASH: c698b8e175d55016cb886ee915c2304c3525536a
-                  MATRIX: 528->1|624->3|651->4|691->18|705->24|767->66
+                  DATE: Sat Mar 11 10:29:34 IST 2017
+                  SOURCE: /home/knoldus/Play/newAjax/app/views/loginPage.scala.html
+                  HASH: c7bbec1388e23ace479b3d5e1fc6a906351152cc
+                  MATRIX: 528->1|624->3|651->4|691->18|705->24|766->65
                   LINES: 20->1|25->1|26->2|26->2|26->2|26->2
                   -- GENERATED --
               */

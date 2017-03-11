@@ -20,33 +20,33 @@ class SignupController @Inject()(cache:CacheHandling) extends Controller {
                   repwd:String,
                   mobileNo:String,
                   gender:String,
-                  age:Int,
+                  age:String,
                   hobbies:String) = {
     Action {  implicit request=>
 
-        val datafromcache=cache.dataToManage()
-        val dataToCheck = Users(firstname,middlename,lastname,username,pwd,repwd, mobileNo,gender,age,hobbies)
-        if(!datafromcache.contains(dataToCheck.username)){
-          if(dataToCheck.pwd==dataToCheck.repwd) {
-            if(dataToCheck.mobileNo.length==10) {
-              cache.setValueInCache(dataToCheck.username,dataToCheck)
-              Ok(views.html.profilePage(dataToCheck))
-            }
-            else {
-              Ok(views.html.signupPage())
-
-            }
+      val datafromcache=cache.dataToManage()
+      val dataToCheck = Users(firstname,middlename,lastname,username,pwd,repwd, mobileNo,gender,age.toInt,hobbies)
+      if(!datafromcache.contains(dataToCheck.username)){
+        if(dataToCheck.pwd==dataToCheck.repwd) {
+          if(dataToCheck.mobileNo.length==10) {
+            cache.setValueInCache(dataToCheck.username,dataToCheck)
+            Ok(views.html.profilePage(dataToCheck))
           }
           else {
             Ok(views.html.signupPage())
-          }
 
+          }
         }
         else {
           Ok(views.html.signupPage())
         }
 
       }
+      else {
+        Ok(views.html.signupPage())
+      }
+
+    }
 
   }
 

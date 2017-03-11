@@ -17,7 +17,7 @@ import play.api.data._
 class index extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with play.twirl.api.Template0[play.twirl.api.HtmlFormat.Appendable] {
 
   /**/
-  def apply/*1.2*/():play.twirl.api.HtmlFormat.Appendable = {
+  def apply():play.twirl.api.HtmlFormat.Appendable = {
     _display_ {
       {
 
@@ -42,11 +42,11 @@ Seq[Any]()
 object index extends index_Scope0.index
               /*
                   -- GENERATED --
-                  DATE: Sat Mar 11 01:26:10 IST 2017
-                  SOURCE: /home/knoldus/Play/Ajax/app/views/index.scala.html
-                  HASH: ab6e073c94f5e8799a4c9e330a9bf2dc46bc8a0c
-                  MATRIX: 520->1
-                  LINES: 20->1
+                  DATE: Sat Mar 11 10:17:29 IST 2017
+                  SOURCE: /home/knoldus/Play/newAjax/app/views/index.scala.html
+                  HASH: ed9b5a45abd52677bf96b85f777e3a06c4ccd16f
+                  MATRIX: 
+                  LINES: 
                   -- GENERATED --
               */
           

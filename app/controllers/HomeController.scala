@@ -5,20 +5,21 @@ import play.api._
 import play.api.mvc._
 
 
+@Singleton
+class HomeController @Inject() extends Controller {
 
-class HomeController extends Controller {
 
-  def index = Action {
+
+  def home = Action {
     Ok(views.html.homePage())
   }
 
-  def signUp=Action{
+  def signup = Action {
     Ok(views.html.signupPage())
   }
 
-  def logIn=Action{
+  def login = Action {
     Ok(views.html.loginPage())
   }
-
 
 }

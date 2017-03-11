@@ -1,4 +1,4 @@
 [0m[[0mdebug[0m] [0mCopy resource mappings: [0m
-[0m[[0mdebug[0m] [0m	(/home/knoldus/Play/Ajax/conf/logback.xml,/home/knoldus/Play/Ajax/target/scala-2.11/classes/logback.xml)[0m
-[0m[[0mdebug[0m] [0m	(/home/knoldus/Play/Ajax/conf/application.conf,/home/knoldus/Play/Ajax/target/scala-2.11/classes/application.conf)[0m
-[0m[[0mdebug[0m] [0m	(/home/knoldus/Play/Ajax/conf/routes,/home/knoldus/Play/Ajax/target/scala-2.11/classes/routes)[0m
+[0m[[0mdebug[0m] [0m	(/home/knoldus/Play/newAjax/conf/logback.xml,/home/knoldus/Play/newAjax/target/scala-2.11/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/home/knoldus/Play/newAjax/conf/application.conf,/home/knoldus/Play/newAjax/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/knoldus/Play/newAjax/conf/routes,/home/knoldus/Play/newAjax/target/scala-2.11/classes/routes)[0m

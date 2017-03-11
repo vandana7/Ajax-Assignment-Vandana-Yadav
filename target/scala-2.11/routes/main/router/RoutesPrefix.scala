@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/home/knoldus/Play/Ajax/conf/routes
-// @DATE:Fri Mar 10 23:17:55 IST 2017
+// @SOURCE:/home/knoldus/Play/newAjax/conf/routes
+// @DATE:Sat Mar 11 12:24:01 IST 2017
 
 
 package router {
